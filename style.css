@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Yeseva+One&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("background1.jpg");
+}
+
+a {
+    text-decoration: none;
+}
+
+.text {
+    font-family: "Poppins";
+    line-height: 54px;
+    color: #F1F3F6;
+}
+
+header {
+    margin: 0 70px;
+}
+
+nav {
+    width: 100%;
+}
+
+.logo {
+    float: left;
+}
+
+.logo .text {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 54px;
+    color: #F1F3F6;
+}
+
+.logo .textAlt {
+    font-family: "Poppins";
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 54px;
+    color: #D9C72A;
+}
+
+.navbar {
+    float: right;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 20px 20px;
+}
+
+.navbar .colored {
+    color: #D9C72A;
+}
